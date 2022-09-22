@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0 (Python 3.10.4 on win32)" generated="20220916 15:00:35.909" rpa="false" schemaversion="3">
+<suite id="s1" name="Testcase" source="C:\Users\Administrator\Documents\robotFramework\tests\testcase.robot">
+<test id="s1-t1" name="User should be able to land on Flipkart detail Page" line="7">
+<kw name="Open Flipcart" library="instruction">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>https://www.flipkart.com/</arg>
+<arg>gc</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20220916 15:00:36.126" level="INFO">Opening browser 'gc' to base url 'https://www.flipkart.com/'.</msg>
+<msg timestamp="20220916 15:00:39.659" level="INFO">Cannot capture screenshot because no browser is open.</msg>
+<msg timestamp="20220916 15:00:39.661" level="FAIL">SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 103
+Current browser version is 105.0.5195.102 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x00F06463+2188387]
+	Ordinal0 [0x00E9E461+1762401]
+	Ordinal0 [0x00DB3D78+802168]
+	Ordinal0 [0x00DD4E59+937561]
+	Ordinal0 [0x00DD0A6C+920172]
+	Ordinal0 [0x00DCE331+910129]
+	Ordinal0 [0x00E01430+1119280]
+	Ordinal0 [0x00E0108A+1118346]
+	Ordinal0 [0x00DFC5F6+1099254]
+	Ordinal0 [0x00DD6BE0+945120]
+	Ordinal0 [0x00DD7AD6+948950]
+	GetHandleVerifier [0x011A71F2+2712546]
+	GetHandleVerifier [0x0119886D+2652765]
+	GetHandleVerifier [0x00F9002A+520730]
+	GetHandleVerifier [0x00F8EE06+516086]
+	Ordinal0 [0x00EA468B+1787531]
+	Ordinal0 [0x00EA8E88+1805960]
+	Ordinal0 [0x00EA8F75+1806197]
+	Ordinal0 [0x00EB1DF1+1842673]
+	BaseThreadInitThunk [0x753EFA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77167B5E+286]
+	RtlGetAppContainerNamedObjectPath [0x77167B2E+238]
+</msg>
+<status status="FAIL" starttime="20220916 15:00:36.126" endtime="20220916 15:00:39.664"/>
+</kw>
+<status status="FAIL" starttime="20220916 15:00:36.125" endtime="20220916 15:00:39.665"/>
+</kw>
+<status status="FAIL" starttime="20220916 15:00:36.125" endtime="20220916 15:00:39.667">SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 103
+Current browser version is 105.0.5195.102 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x00F06463+2188387]
+	Ordinal0 [0x00E9E461+1762401]
+	Ordinal0 [0x00DB3D78+802168]
+	Ordinal0 [0x00DD4E59+937561]
+	Ordinal0 [0x00DD0A6C+920172]
+	Ordinal0 [0x00DCE331+910129]
+	Ordinal0 [0x00E01430+1119280]
+	Ordinal0 [0x00E0108A+1118346]
+	Ordinal0 [0x00DFC5F6+1099254]
+	Ordinal0 [0x00DD6BE0+945120]
+	Ordinal0 [0x00DD7AD6+948950]
+	GetHandleVerifier [0x011A71F2+2712546]
+	GetHandleVerifier [0x0119886D+2652765]
+	GetHandleVerifier [0x00F9002A+520730]
+	GetHandleVerifier [0x00F8EE06+516086]
+	Ordinal0 [0x00EA468B+1787531]
+	Ordinal0 [0x00EA8E88+1805960]
+	Ordinal0 [0x00EA8F75+1806197]
+	Ordinal0 [0x00EB1DF1+1842673]
+	BaseThreadInitThunk [0x753EFA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77167B5E+286]
+	RtlGetAppContainerNamedObjectPath [0x77167B2E+238]
+</status>
+</test>
+<status status="FAIL" starttime="20220916 15:00:35.911" endtime="20220916 15:00:39.673"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Testcase">Testcase</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
